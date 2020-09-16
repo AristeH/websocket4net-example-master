@@ -176,15 +176,15 @@ namespace websocket_example_window
                             break;
                     }
 
-                    StringReader stringReader = new StringReader(text);
-                    XmlReader xmlReader = XmlReader.Create(stringReader);
+                 //   StringReader stringReader = new StringReader(text);
+                //    XmlReader xmlReader = XmlReader.Create(stringReader);
 
-                    UIElement tree = (UIElement)XamlReader.Load(xmlReader);
-                    tree.
+                 //   UIElement tree = (UIElement)XamlReader.Load(xmlReader);
+               
                     Window2 subWindow = new Window2();
                     subWindow.Text = e.Message;
                     subWindow.websocket = websocket;
-                    this.LoadFromXaml(text); ;
+      //              this.LoadFromXaml(text); ;
                     subWindow.Show();
                 }
             }));

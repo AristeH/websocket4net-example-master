@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
 
 namespace websocket4net_example
 {
-    /// <summary>
-    /// App.xaml の相互作用ロジック
-    /// </summary>
+    /// <summary>  App.xaml   </summary>
     public partial class App : Application
     {
     }
